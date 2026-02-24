@@ -1,4 +1,5 @@
 🧪 Benefits Dashboard Bug Challenge
+
 📌 Overview
 
 This project demonstrates professional QA Engineering capabilities through bug finding, testing strategy design, and quality risk analysis of the Benefits Dashboard Application.
