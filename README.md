@@ -2,9 +2,11 @@
 
 📌 Overview
 
-This project demonstrates professional QA Engineering capabilities through bug finding, testing strategy design, and quality risk analysis of the Benefits Dashboard Application.
+This project demonstrates professional QA Engineering capabilities through bug finding,
+testing strategy design, and quality risk analysis of the *Benefits Dashboard Application.*
 
-The objective of this project is to showcase production-level testing thinking, defect discovery skills, and automation readiness.
+The objective of this project is to showcase production-level testing thinking,
+defect discovery skills, and automation readiness.
 
 🎯 Testing Scope
 
