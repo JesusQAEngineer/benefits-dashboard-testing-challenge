@@ -3,17 +3,21 @@
 📌 Overview
 
 This project demonstrates professional QA Engineering capabilities through bug finding,
-testing strategy design, and quality risk analysis of the Benefits Dashboard Application.
+testing strategy design, and quality risk analysis of the **Benefits Dashboard Application.**
 
 The objective of this project is to showcase production-level testing thinking,
 defect discovery skills, and automation readiness.
 
 ________________________________________
 
+<br />
+
 🎯 Testing Scope
 
-The following system areas were evaluated:
 
+**The following system areas were evaluated:**
+
+<br />
 
 ✅ Employee Lifecycle Management
 
@@ -25,10 +29,11 @@ The following system areas were evaluated:
 
 •	Dashboard Data Visibility
 
+<br />
 
 ✅ Business Rule Validation
 
-Business financial calculations were verified using the following assumptions:
+**Business financial calculations were verified using the following assumptions:**
 
 •	Employee Gross Pay: $2000 per paycheck
 
@@ -38,9 +43,9 @@ Business financial calculations were verified using the following assumptions:
 
 •	Dependent Cost: $500 per dependent
 
+<br />
 
-
-Calculation Model
+**Calculation Model**
 
 Yearly Benefits = 1000 + (Dependents × 500)
 
@@ -48,12 +53,14 @@ Benefits per Paycheck = Yearly Benefits ÷ 26
 
 Net Paycheck = 2000 − Benefits per Paycheck
 
-
+<br />
 ________________________________________
+
+<br />
 
 🐛 Quality Risk Areas Identified
 
-High Severity Risks
+**High Severity Risks**
 
 •	Optimistic UI rendering behavior
 
@@ -63,8 +70,9 @@ High Severity Risks
 
 •	Boundary validation gaps
 
+<br />
 
-Medium Severity Risks
+**Medium Severity Risks**
 
 •	Missing loading indicators
 
@@ -72,11 +80,14 @@ Medium Severity Risks
 
 •	Input sanitization risk
 
+<br />
 ________________________________________
+
+<br />
 
 📊 UI Testing Highlights
 
-Employee Creation
+**Employee Creation**
 
 •	Data persistence validation
 
@@ -84,25 +95,32 @@ Employee Creation
 
 •	Dashboard visibility verification
 
+<br />
 
-Employee Editing
+**Employee Editing**
 
 •	Field update consistency
 
 •	Payroll preview recalculation
 
+<br />
 
-Employee Deletion
+**Employee Deletion**
 
 •	Record removal confirmation
 
 •	Table state refresh behavior
 
+<br />
 ________________________________________
+
+<br />
 
 🔍 Boundary Testing Coverage
 
-Dependents Value	Expected Behavior
+<br />
+
+**Dependents Value	Expected Behavior**
 
 0	Valid
 
@@ -112,11 +130,16 @@ Dependents Value	Expected Behavior
 
 32+	Should be rejected
 
+<br />
+
 ________________________________________
+
 
 🤖 Automation Readiness
 
-The application is suitable for UI automation using:
+<br />
+
+**The application is suitable for UI automation using:**
 
 •	Playwright (recommended)
 
@@ -124,8 +147,9 @@ The application is suitable for UI automation using:
 
 •	Selenium WebDriver
 
+<br />
 
-Suggested design pattern:
+**Suggested design pattern:**
 
 •	Page Object Model (POM)
 
@@ -133,11 +157,17 @@ Suggested design pattern:
 
 •	CI/CD pipeline integration
 
+<br />
+
 ________________________________________
+
+<br />
 
 🏛 Quality Engineering Insights
 
-The system would benefit from:
+<br />
+
+**The system would benefit from:**
 
 •	Backend confirmation-driven UI updates
 
@@ -147,44 +177,57 @@ The system would benefit from:
 
 •	State synchronization mechanisms
 
+<br />
+
 ________________________________________
+
+<br />
+
 
 🚀 Repository Structure Recommendation
 
-qa-bug-challenge-project/
+<br />
 
-│
+**qa-bug-challenge-project/**
 
-├── README.md
+**│**
 
-├── reports/
+**├── README.md**
 
-│   ├── Final_Submission_Masterpiece.md
+**├── reports/**
 
-│   ├── Legendary_QA_Closing_Statement.md
+**│   ├── Final_Submission_Masterpiece.md**
 
-│   ├── UI_Bug_Report.md
+**│   ├── Legendary_QA_Closing_Statement.md**
 
-│
+**│   ├── UI_Bug_Report.md**
 
-├── automation-plan/
+**│**
 
-│   └── UI_Automation_Strategy.md
+**├── automation-plan/**
 
-│
+**│   └── UI_Automation_Strategy.md**
 
-├── screenshots/
+**│**
 
-│
+**├── screenshots/**
 
-└── assets/
+**│**
 
+**└── assets/**
+
+<br />
 
 ________________________________________
 
+<br />
+
+
 ⭐ Project Value Proposition
 
-This project demonstrates:
+**This project demonstrates:**
+
+<br />
 
 •	Production-level QA thinking
 
@@ -196,22 +239,34 @@ This project demonstrates:
 
 •	Engineering communication quality
 
+<br />
 
 ________________________________________
+
+<br />
+
 
 👤 Author
 
-Jesus Ricardo Hernandez Campos
+<br />
 
-QA Automation Engineer
+**Jesus Ricardo Hernandez Campos**
 
-UI Testing | API Testing | Quality Strategy | CI/CD Awareness
+**QA Automation Engineer**
+
+**UI Testing | API Testing | Quality Strategy | CI/CD Awareness**
+
+<br />
 
 ________________________________________
 
+<br />
+
 🏆 Purpose of This Project
 
-The main goal of this project is to showcase professional quality engineering skills, including:
+<br />
+
+**The main goal of this project is to showcase professional quality engineering skills, including:**
 
 •	Test design maturity
 
