@@ -1,90 +1,97 @@
-📊 Reports Directory
-📌 Overview
+<h1>📊 Reports Directory</h1>
 
+<h2>📌 Overview</h2>
+
+<p>
 This directory contains formal QA documentation generated as part of the Benefits Dashboard validation project.
+</p>
 
+<p>
 The reports included here reflect structured QA communication, professional documentation practices, and stakeholder-ready deliverables.
+</p>
 
-📁 Contents
-🐞 UI_Bug_Report.md
+<hr>
 
-Structured defect documentation including:
+<h2>📁 Contents</h2>
 
-Issue description
+<h3>🐞 UI_Bug_Report.md</h3>
 
-Steps to reproduce
+<p>Structured defect documentation including:</p>
 
-Expected vs actual results
+<ul>
+  <li>Issue description</li>
+  <li>Steps to reproduce</li>
+  <li>Expected vs actual results</li>
+  <li>Severity assessment</li>
+  <li>Business impact</li>
+  <li>Reproducibility</li>
+</ul>
 
-Severity assessment
-
-Business impact
-
-Reproducibility
-
+<p>
 This report demonstrates professional bug reporting discipline aligned with real-world QA standards.
+</p>
 
+<hr>
 
-🧠 QA_Engineer.md
+<h3>🧠 QA_Engineer.md</h3>
 
-Professional positioning document highlighting:
+<p>Professional positioning document highlighting:</p>
 
-Testing philosophy
+<ul>
+  <li>Testing philosophy</li>
+  <li>Automation mindset</li>
+  <li>Quality strategy</li>
+  <li>Engineering discipline</li>
+  <li>Value-driven QA approach</li>
+</ul>
 
-Automation mindset
-
-Quality strategy
-
-Engineering discipline
-
-Value-driven QA approach
-
+<p>
 Represents how a QA Engineer communicates technical ownership and quality leadership.
+</p>
 
+<hr>
 
-🏁 QA_Closing_Statement.md
+<h3>🏁 QA_Closing_Statement.md</h3>
 
-Final delivery statement summarizing:
+<p>Final delivery statement summarizing:</p>
 
-Scope covered
+<ul>
+  <li>Scope covered</li>
+  <li>Risk mitigation</li>
+  <li>Business validation</li>
+  <li>Automation readiness</li>
+  <li>Production-level thinking</li>
+</ul>
 
-Risk mitigation
-
-Business validation
-
-Automation readiness
-
-Production-level thinking
-
+<p>
 This simulates stakeholder-level final submission documentation.
+</p>
 
+<hr>
 
-🎯 Purpose of This Directory
+<h2>🎯 Purpose of This Directory</h2>
 
-This folder demonstrates:
+<ul>
+  <li>Clear QA documentation standards</li>
+  <li>Professional reporting structure</li>
+  <li>Business-impact awareness</li>
+  <li>Communication skills beyond test execution</li>
+  <li>Enterprise-level documentation maturity</li>
+</ul>
 
-Clear QA documentation standards
+<hr>
 
-Professional reporting structure
+<h2>🚀 Professional Value</h2>
 
-Business-impact awareness
-
-Communication skills beyond test execution
-
-Enterprise-level documentation maturity
-
-
-🚀 Professional Value
-
+<p>
 Strong QA engineers do not only test — they document, communicate, and provide clarity.
+</p>
 
-This directory reflects:
+<p>This directory reflects:</p>
 
-Structured thinking
-
-Engineering discipline
-
-Clear stakeholder communication
-
-Production-ready reporting style
-
+<ul>
+  <li>Structured thinking</li>
+  <li>Engineering discipline</li>
+  <li>Clear stakeholder communication</li>
+  <li>Production-ready reporting style</li>
+</ul>
