@@ -1,31 +1,25 @@
-<h1>📸 Manual Testing Evidence</h1>
+# 📸 Manual Testing Evidence
 
-<h2>📌 Overview</h2>
+## 📌 Overview
 
-<p>
-This directory contains visual evidence collected during manual validation of the Employees & Benefits module.
-</p>
+This directory contains visual evidence collected during manual validation of the Employees & Benefits functionality in the Benefits Dashboard application.
 
-<p>The screenshots demonstrate:</p>
+The screenshots demonstrate:
 
-<ul>
-  <li>Functional correctness</li>
-  <li>Financial calculation accuracy</li>
-  <li>CRUD behavior</li>
-  <li>Boundary testing</li>
-  <li>UI consistency</li>
-  <li>Data persistence validation</li>
-</ul>
+- Functional correctness
+- Financial calculation accuracy
+- CRUD behavior
+- Boundary testing
+- UI consistency
+- Data persistence validation
 
-<p>
 All images correspond to real execution scenarios validated before automation implementation.
-</p>
 
-<hr>
+---
 
-<h2>📁 Folder Structure</h2>
+## 📁 Folder Structure
 
-<pre>
+```text
 screenshots/
 │
 ├── create/
@@ -33,165 +27,136 @@ screenshots/
 ├── delete/
 ├── boundary-tests/
 ├── financial-validation/
-</pre>
+```
 
-<p>
 Each folder represents a specific functional area validated during testing.
-</p>
 
-<hr>
+---
 
-<h2>🧪 Test Evidence Breakdown</h2>
+## 🧪 Test Evidence Breakdown
 
-<h3>🟢 Create</h3>
+### 🟢 Create
 
-<p><strong>Validates:</strong></p>
+**Validates:**
 
-<ul>
-  <li>Employee creation success</li>
-  <li>Correct data persistence</li>
-  <li>UUID generation</li>
-  <li>Dashboard visibility</li>
-  <li>Initial financial calculation</li>
-</ul>
+- Employee creation success
+- Correct data persistence
+- UUID generation
+- Dashboard visibility
+- Initial financial calculation
 
-<p><strong>Example validations captured:</strong></p>
+**Example validations captured:**
 
-<ul>
-  <li>Successful POST response</li>
-  <li>Employee visible in dashboard</li>
-  <li>Correct net pay calculation after benefits deduction</li>
-</ul>
+- Successful record creation
+- Employee visible in dashboard
+- Correct net pay calculation after benefits deduction
 
-<hr>
+---
 
-<h3>🟡 Edit</h3>
+### 🟡 Edit
 
-<p><strong>Validates:</strong></p>
+**Validates:**
 
-<ul>
-  <li>Employee information update</li>
-  <li>Dependent modification</li>
-  <li>Financial recalculation accuracy</li>
-  <li>Persistence after update</li>
-  <li>UI reflects updated values</li>
-</ul>
+- Employee information update
+- Dependent modification
+- Financial recalculation accuracy
+- Persistence after update
+- UI reflects updated values
 
-<p><strong>Example validations captured:</strong></p>
+**Example validations captured:**
 
-<ul>
-  <li>Updated name persists</li>
-  <li>Dependents update correctly</li>
-  <li>Net pay recalculates based on new benefit cost</li>
-</ul>
+- Updated name persists
+- Dependents update correctly
+- Net pay recalculates based on new benefit cost
 
-<hr>
+---
 
-<h3>🔴 Delete</h3>
+### 🔴 Delete
 
-<p><strong>Validates:</strong></p>
+**Validates:**
 
-<ul>
-  <li>Successful employee removal</li>
-  <li>Proper system confirmation</li>
-  <li>Record count decrement</li>
-  <li>Absence from dashboard</li>
-  <li>Negative lookup validation</li>
-</ul>
+- Successful employee removal
+- Proper system confirmation
+- Record count decrement
+- Absence from dashboard
+- Negative lookup validation
 
-<p><strong>Example validations captured:</strong></p>
+**Example validations captured:**
 
-<ul>
-  <li>DELETE success message</li>
-  <li>Employee no longer listed</li>
-  <li>404 validation when queried after deletion</li>
-</ul>
+- Delete action completes successfully
+- Employee no longer listed
+- Record is no longer available after deletion
 
-<hr>
+---
 
-<h3>🔵 Boundary Tests</h3>
+### 🔵 Boundary Tests
 
-<p>
 Validates system behavior under edge conditions:
-</p>
 
-<ul>
-  <li>0 dependents</li>
-  <li>1 dependent</li>
-  <li>Multiple dependents</li>
-  <li>Maximum allowed dependents (32)</li>
-  <li>Over-boundary attempt handling (if applicable)</li>
-</ul>
+- 0 dependents
+- 1 dependent
+- Multiple dependents
+- Maximum allowed dependents (32)
+- Over-boundary attempt handling (if applicable)
 
-<p><strong>Ensures:</strong></p>
+**Ensures:**
 
-<ul>
-  <li>No calculation overflow</li>
-  <li>No negative financial values</li>
-  <li>Proper validation messaging</li>
-</ul>
+- No calculation overflow
+- No negative financial values
+- Proper validation messaging
 
-<hr>
+---
 
-<h3>💰 Financial Validation</h3>
+### 💰 Financial Validation
 
-<p><strong>Validates business rule integrity:</strong></p>
+**Validates business rule integrity using the following assumptions:**
 
-<p><strong>Assumptions:</strong></p>
+- $2000 gross per paycheck
+- 26 paychecks per year
+- $1000 yearly cost per employee
+- $500 yearly cost per dependent
 
-<ul>
-  <li>$2000 gross per paycheck</li>
-  <li>26 paychecks per year</li>
-  <li>$1000 yearly cost per employee</li>
-  <li>$500 yearly cost per dependent</li>
-</ul>
+**Validated formula:**
 
-<p><strong>Validated formula:</strong></p>
-
-<pre>
+```text
 Yearly Benefits = 1000 + (dependents × 500)
 Benefits per Paycheck = Yearly Benefits / 26
 Net Pay = 2000 - Benefits per Paycheck
-</pre>
+```
 
-<p><strong>Screenshots demonstrate:</strong></p>
+**Screenshots demonstrate:**
 
-<ul>
-  <li>Correct benefit deductions</li>
-  <li>Net pay lower than gross</li>
-  <li>Proper decimal handling</li>
-  <li>Consistency across CRUD operations</li>
-</ul>
+- Correct benefit deductions
+- Net pay lower than gross
+- Proper decimal handling
+- Consistency across CRUD operations
 
-<hr>
+---
 
-<h2>🎯 Purpose of This Evidence</h2>
+## 🎯 Purpose of This Evidence
 
-<ul>
-  <li>Traceability between manual and automated tests</li>
-  <li>Visual proof of system behavior</li>
-  <li>Stakeholder reporting</li>
-  <li>Audit readiness</li>
-  <li>Regression reference baseline</li>
-</ul>
+This directory exists to provide:
 
-<hr>
+- Traceability between manual and automated tests
+- Visual proof of system behavior
+- Stakeholder-ready reporting support
+- Audit-friendly validation evidence
+- Regression reference baseline
 
-<h2>🚀 Professional Testing Approach Reflected</h2>
+---
 
-<ul>
-  <li>Structured manual validation before automation</li>
-  <li>Business rule awareness</li>
-  <li>Deterministic data handling</li>
-  <li>Validation beyond UI (logic-focused testing)</li>
-  <li>Production-level testing discipline</li>
-</ul>
+## 🚀 Professional Testing Approach Reflected
 
-<hr>
+This evidence reflects:
 
-<h3>Author</h3>
+- Structured manual validation before automation
+- Business rule awareness
+- Deterministic data handling
+- Validation beyond UI cosmetics
+- Production-level testing discipline
 
-<p>
-Jesus Ricardo Hernandez Campos<br>
-QA Engineer | API & UI Automation | CI/CD Ready Frameworks
-</p>
+---
+
+## 🏁 Final Note
+
+This directory represents the visual evidence layer of the testing challenge and reinforces the credibility, reproducibility, and professionalism of the overall QA assessment.
