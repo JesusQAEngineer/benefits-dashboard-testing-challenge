@@ -1,97 +1,99 @@
-<h1>📊 Reports Directory</h1>
+# 📊 Reports Directory
 
-<h2>📌 Overview</h2>
+## 📌 Overview
 
-<p>
-This directory contains formal QA documentation generated as part of the Benefits Dashboard validation project.
-</p>
+This directory contains formal QA documentation generated as part of the **Benefits Dashboard validation project**.
 
-<p>
 The reports included here reflect structured QA communication, professional documentation practices, and stakeholder-ready deliverables.
-</p>
 
-<hr>
+These documents capture the **analysis, findings, and conclusions** produced during manual validation and test design activities.
 
-<h2>📁 Contents</h2>
+---
 
-<h3>🐞 UI_Bug_Report.md</h3>
+# 📁 Contents
 
-<p>Structured defect documentation including:</p>
+## 🧠 QA Engineering Perspective
 
-<ul>
-  <li>Issue description</li>
-  <li>Steps to reproduce</li>
-  <li>Expected vs actual results</li>
-  <li>Severity assessment</li>
-  <li>Business impact</li>
-  <li>Reproducibility</li>
-</ul>
+### 🏆 QA Engineer.md
 
-<p>
-This report demonstrates professional bug reporting discipline aligned with real-world QA standards.
-</p>
+Describes the **quality engineering mindset** used during the challenge, including testing philosophy, validation approach, and engineering reasoning applied during the assessment.
 
-<hr>
+---
 
-<h3>🧠 QA_Engineer.md</h3>
+## 🧪 UI Testing Findings
 
-<p>Professional positioning document highlighting:</p>
+### 🐞 UI_Bug_Report.md
 
-<ul>
-  <li>Testing philosophy</li>
-  <li>Automation mindset</li>
-  <li>Quality strategy</li>
-  <li>Engineering discipline</li>
-  <li>Value-driven QA approach</li>
-</ul>
+Executive report summarizing the **UI defects identified during validation** of the Benefits Dashboard application.
 
-<p>
-Represents how a QA Engineer communicates technical ownership and quality leadership.
-</p>
+This document highlights the most relevant findings discovered during testing and explains their potential impact on system reliability and user experience.
 
-<hr>
+Detailed bug documentation can be found in the **bug-reports directory**.
 
-<h3>🏁 QA_Closing_Statement.md</h3>
+---
 
-<p>Final delivery statement summarizing:</p>
+## 🐛 Formal Bug Reports
 
-<ul>
-  <li>Scope covered</li>
-  <li>Risk mitigation</li>
-  <li>Business validation</li>
-  <li>Automation readiness</li>
-  <li>Production-level thinking</li>
-</ul>
+### 📂 bug-reports/
 
-<p>
-This simulates stakeholder-level final submission documentation.
-</p>
+This subdirectory contains **structured bug documentation using a standardized QA defect template**.
 
-<hr>
+Each issue includes:
 
-<h2>🎯 Purpose of This Directory</h2>
+* Reproduction steps
+* Expected vs actual behavior
+* Environment details
+* Supporting evidence
+* QA analysis notes
 
-<ul>
-  <li>Clear QA documentation standards</li>
-  <li>Professional reporting structure</li>
-  <li>Business-impact awareness</li>
-  <li>Communication skills beyond test execution</li>
-  <li>Enterprise-level documentation maturity</li>
-</ul>
+Reported defects:
 
-<hr>
+* **BUG-001** — Employees table sometimes loads empty after automated navigation
+* **BUG-002** — Employee modal sometimes remains open after submission
 
-<h2>🚀 Professional Value</h2>
+These reports provide traceability between **manual testing findings and automation validation results**.
 
-<p>
-Strong QA engineers do not only test — they document, communicate, and provide clarity.
-</p>
+---
 
-<p>This directory reflects:</p>
+## 📄 QA Conclusion
 
-<ul>
-  <li>Structured thinking</li>
-  <li>Engineering discipline</li>
-  <li>Clear stakeholder communication</li>
-  <li>Production-ready reporting style</li>
-</ul>
+### 💬 QA Closing Statement.md
+
+Final QA assessment summarizing:
+
+* Overall system reliability
+* Identified risk areas
+* Recommendations for improvement
+* Quality engineering perspective
+
+This document represents the **final QA evaluation of the testing challenge**.
+
+---
+
+# 🎯 Purpose of This Directory
+
+The reports contained here aim to demonstrate:
+
+* Professional QA communication
+* Structured defect documentation
+* Risk-based testing analysis
+* Engineering-level test reporting
+* Stakeholder-ready QA deliverables
+
+---
+
+# 🚀 Quality Engineering Value
+
+This documentation showcases a **production-level QA workflow**, including:
+
+* Defect discovery
+* Structured bug reporting
+* Evidence-based validation
+* Root-cause investigation mindset
+* Clear technical communication
+
+---
+
+# 🧪 Final Note
+
+The documents in this directory represent the **formal reporting layer** of the testing challenge and complement the **manual evidence, screenshots, and automation artifacts** contained in the rest of the repository.
